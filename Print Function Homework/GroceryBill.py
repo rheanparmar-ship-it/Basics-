@@ -1,0 +1,5 @@
+name = input("What are you buying?")
+price = input("How much is it?")
+quantity = input("How many of these items are you getting")
+total = float(price)*int(quantity)
+print(f"BILL\nProduct: {name}\nPrice per item: {price}\nQuantity: {quantity}\nTotal Cost: {total}\nThank you for shopping!")
